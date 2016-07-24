@@ -69,13 +69,11 @@ InputArea.PropTypes = {
 export class BeerList extends Component {
   render() {
     return this.props.items ?
-      (<table className="slds-table slds-table--bordered slds-table--cell-buffer">
+      (<ul className="slds-list--dotted">
         {this.props.items.map((item, index) => (
-          <tr>
-            <td key={index}>{item}</td>
-          </tr>
+          <li key={index}>{item}</li>
         ))}
-      </table>)
+      </ul>)
     : null;
   }
 }

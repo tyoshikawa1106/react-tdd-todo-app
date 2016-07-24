@@ -21232,17 +21232,13 @@
 	    key: 'render',
 	    value: function render() {
 	      return this.props.items ? _react2.default.createElement(
-	        'table',
-	        { className: 'slds-table slds-table--bordered slds-table--cell-buffer' },
+	        'ul',
+	        { className: 'slds-list--dotted' },
 	        this.props.items.map(function (item, index) {
 	          return _react2.default.createElement(
-	            'tr',
-	            null,
-	            _react2.default.createElement(
-	              'td',
-	              { key: index },
-	              item
-	            )
+	            'li',
+	            { key: index },
+	            item
 	          );
 	        })
 	      ) : null;
