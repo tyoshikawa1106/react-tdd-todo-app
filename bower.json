@@ -1,0 +1,17 @@
+{
+  "name": "app",
+  "description": "",
+  "main": "server.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "salesforce-lightning-design-system": "^2.0.2"
+  }
+}
