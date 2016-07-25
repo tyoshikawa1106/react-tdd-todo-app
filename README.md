@@ -10,8 +10,17 @@ React × TDD × Todo Apps
 - nodemon v1.9.2
 
 ## Usage
+Run Apps
 ```
 $ npm install
 $ npm webpack --watch
 $ nodemon
+```
+
+Run Test
+```
+$ cd react
+$ cd modules
+$ cd spec
+$ mocha --require setup.js *.spec.js
 ```
