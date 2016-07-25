@@ -7,10 +7,11 @@ React × TDD × Todo Apps
 
 ## Requirements
 - Node v6.0.0 ~
+- nodemon v1.9.2
 
 ## Usage
 ```
 $ npm install
-$ npm webpack
-$ npm start
+$ npm webpack --watch
+$ nodemon
 ```
