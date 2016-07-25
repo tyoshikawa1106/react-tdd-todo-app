@@ -8,6 +8,7 @@ React × TDD × Todo Apps
 ## Requirements
 - Node v6.0.0 ~
 - nodemon v1.9.2
+- mocha v2.5.3
 
 ## Usage
 Run Apps
